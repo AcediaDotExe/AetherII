@@ -1,0 +1,30 @@
+@import "src/app/styles/vars";
+
+#intro-text{
+  color: $color-light;
+}
+
+#intro-text-title{
+  font-size: 11vw;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 40%;
+  z-index: 10;
+}
+
+#intro-text-tagline{
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 80%;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+
+  font-size: 30px;
+
+  z-index: 10;
+}
