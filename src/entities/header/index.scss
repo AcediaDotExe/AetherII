@@ -1,12 +1,16 @@
 @import "src/app/styles/vars";
 
-#header{
-  background-color: $color-dark;
+#header {
+  background-color: transparent;
   width: 100%;
   height: 60px;
+  padding-left: 10px;
 
   position: fixed;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   text-align: center;
+
+  text-shadow: $color-primary 1px 1px 1px;
+  font-weight: bold;
 }
