@@ -1,3 +1,5 @@
+import './index.scss'
+
 export const History = () => {
-    return <></>
+    return <div id='history'>History</div>
 }

@@ -1,3 +1,5 @@
+import './index.scss'
+
 export const TakeTour = () => {
-    return <></>
+    return <div id='take-tour'>TAKETOUR</div>
 }

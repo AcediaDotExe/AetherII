@@ -1,3 +1,7 @@
+import './index.scss'
+
 export const AboutUsBlock = () => {
-    return <></>
+    return <div id='about-us-block'>
+        About US
+    </div>
 }

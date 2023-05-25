@@ -1,5 +1,4 @@
-import { lazy, Suspense } from "react";
-import {Route, Routes, Switch} from "react-router-dom";
+import {Route, Routes} from "react-router-dom";
 import {Home} from "./home";
 import {Catalogue} from "./catalogue";
 import {Tour} from "./tour";
@@ -12,12 +11,10 @@ import {PageNotFound} from "./pageNotFound";
 export const Routing = () => {
     return (
         <Routes>
-            <Route path="/" element={<Home />} />
-            <Layout>
-                <Route path="/catalogue" element={<Catalogue />} />
-                <Route path="/tours/:id" element={<Tour />} />
-                <Route path="*" element={<PageNotFound />}/>
-            </Layout>
+            <Route path="/" element={<Home/>}/>
+            <Route path="/catalogue" element={<Catalogue/>}/>
+            <Route path="/tours/:id" element={<Tour/>}/>
+            <Route path="*" element={<PageNotFound/>}/>
         </Routes>
     );
 };

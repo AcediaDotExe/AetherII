@@ -1,3 +1,6 @@
+
+import './index.scss'
+
 export const Footer = () => {
-    return <></>
+    return <div id='my-footer'>FOOTER</div>
 }

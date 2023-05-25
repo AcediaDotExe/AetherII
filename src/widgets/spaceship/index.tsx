@@ -1,3 +1,5 @@
+import './index.scss'
+
 export const Spaceship = () => {
-    return <></>
+    return <div id='spaceship'>Spaceship</div>
 }

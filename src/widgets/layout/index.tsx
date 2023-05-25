@@ -1,13 +1,14 @@
-import React, {ReactNode} from "react";
+import React from "react";
+import {Header} from "../../entities/header";
+import {Footer} from "../../entities/footer";
+import {ParentProps} from "../../shared/types";
 
-type LayoutProps = {
-    children: ReactNode,
-}
+import './index.scss'
 
-export const Layout: React.FC<LayoutProps> = ({children}) => {
-    return <>
-        <Header />
+export const Layout: React.FC<ParentProps> = ({children}) => {
+    return <div id='layout'>
+        <Header/>
         {children}
-        <Footer />
-    </>
+        <Footer/>
+    </div>
 }

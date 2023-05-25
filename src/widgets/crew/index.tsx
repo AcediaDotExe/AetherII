@@ -1,3 +1,5 @@
+import './index.scss'
+
 export const Crew = () => {
-    return <></>
+    return <div id='crew'>CREW</div>
 }
